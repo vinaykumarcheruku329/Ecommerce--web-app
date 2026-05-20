@@ -1,0 +1,123 @@
+body {
+
+    margin: 0;
+
+    font-family: Arial;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+
+    url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200');
+
+    background-size: cover;
+
+    color: white;
+}
+
+header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background: rgba(0,0,0,0.5);
+
+    box-shadow: 0 0 15px cyan;
+}
+
+h1 {
+
+    color: cyan;
+}
+
+.cart {
+
+    font-size: 20px;
+
+    background: cyan;
+
+    color: black;
+
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.products {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    padding: 30px;
+}
+
+.card {
+
+    width: 250px;
+
+    background: rgba(255,255,255,0.1);
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 15px cyan;
+}
+
+.card img {
+
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+button {
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: cyan;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+.cart-box {
+
+    width: 80%;
+
+    margin: auto;
+
+    background: rgba(255,255,255,0.1);
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 0 15px cyan;
+}
+
+li {
+
+    margin: 10px 0;
+}
